@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #0F172A;
+  --foreground: #ededed;
 }
 
 @theme inline {
@@ -12,15 +12,92 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+* {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
+  background-color: #0F172A !important;
+  background: #0F172A !important;
+  color: #ededed;
   font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Enhanced selection */
+::selection {
+  background-color: #7F52FF;
+  color: white;
+}
+
+::-moz-selection {
+  background-color: #7F52FF;
+  color: white;
+}
+
+/* Smooth transitions for interactive elements */
+button,
+a,
+[role="button"] {
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Focus styles for accessibility */
+*:focus-visible {
+  outline: 2px solid #7F52FF;
+  outline-offset: 2px;
+}
+
+/* Print Styles */
+@media print {
+  body {
+    background-color: white !important;
+    background: white !important;
+    color: black !important;
+  }
+
+  /* Hide elements not suitable for CV */
+  nav,
+  footer,
+  button,
+  #architecture-showcase,
+  /* Carousel */
+  .cursor-pointer,
+  /* Interactive elements */
+  .terminal-section,
+  /* Hide Terminal if class added (adding print:hidden instead) */
+  [role="button"] {
+    display: none !important;
+  }
+
+  /* Force light mode colors for text */
+  .text-white,
+  .text-slate-200,
+  .text-slate-300,
+  .text-slate-400,
+  .text-slate-500 {
+    color: black !important;
+  }
+
+  .text-kotlinIndigo,
+  .text-cyberMint,
+  .text-violet-400,
+  .text-slateGray {
+    color: #333 !important;
+    font-weight: bold !important;
+  }
+
+  /* Ensure visible sections */
+  main {
+    min-height: auto !important;
+    display: block !important;
+  }
+
+  section {
+    page-break-inside: avoid;
+    padding: 2rem 0 !important;
+    border: none !important;
+  }
 }

@@ -1,0 +1,293 @@
+{
+    "navigation": {
+        "home": "Home",
+        "about": "About",
+        "slides": "Slides",
+        "terminal": "Command Center",
+        "contact": "Contact"
+    },
+    "hero": {
+        "role_architect": "Architect",
+        "role_guardian": "Guardian",
+        "subtitle": "Bridging the gap between Distributed Systems and Security by Design.",
+        "cta_architecture": "View Architecture",
+        "cta_security": "Security Protocols",
+        "system_status": "System Online • v2025.1.0"
+    },
+    "impact": {
+        "global_scale": "Global Scale",
+        "global_scale_desc": "Terminals worldwide running optimized navigation systems.",
+        "experience": "Experience",
+        "experience_desc": "Years of professional software engineering evolution.",
+        "tech_stack": "Tech Stack",
+        "tech_stack_desc": "Years of specialized high-performance Kotlin development."
+    },
+    "evolution": {
+        "title_prefix": "Evolution",
+        "title_suffix": "of a Maker",
+        "items": [
+            {
+                "year": "2024 - Present",
+                "role": "Strategic Software Architect",
+                "company": "APM Terminals",
+                "description": "Optimizing global terminal operations with event-driven architectures. Leading the navigation system transformation for 10+ terminals worldwide.",
+                "tech": [
+                    "Kotlin",
+                    "Kafka",
+                    "Kubernetes",
+                    "Azure"
+                ]
+            },
+            {
+                "year": "2020 - 2024",
+                "role": "Software Architect",
+                "company": "Enreach",
+                "description": "Led migration from monolith to microservices using CQRS & Event Sourcing. Facilitated Event Storming sessions to bridge business and tech.",
+                "tech": [
+                    "Micronaut",
+                    "RabbitMQ",
+                    "DDD",
+                    "AWS"
+                ]
+            },
+            {
+                "year": "2018 - 2020",
+                "role": "Senior Software Engineer",
+                "company": "TomTom",
+                "description": "Designed secure IAM systems supporting SAML 2.0 and OAuth 2.0. Implemented failure mode analysis for high availability.",
+                "tech": [
+                    "Java",
+                    "Spring Boot",
+                    "OAuth 2.0",
+                    "Security"
+                ]
+            },
+            {
+                "year": "2018",
+                "role": "Senior Software Engineer",
+                "company": "Albert Heijn",
+                "description": "Built 'Digital Health Coach' features using reactive programming.",
+                "tech": [
+                    "Kotlin",
+                    "Spring WebFlux",
+                    "MongoDB"
+                ]
+            },
+            {
+                "year": "2016 - 2018",
+                "role": "Software Engineer",
+                "company": "Rabobank",
+                "description": "Developed high-performance payment APIs handling massive transaction volumes.",
+                "tech": [
+                    "Java",
+                    "Spring Reactive",
+                    "Pivotal Cloud Foundry"
+                ]
+            }
+        ]
+    },
+    "architecture": {
+        "title_prefix": "System",
+        "title_suffix": "Architecture",
+        "description": "Explore the deep technical details of my work, including Event Sourcing, CQRS, and Security protocols.",
+        "cta": "View Detailed Case Studies",
+        "diagram_title": "Event-Driven Transformation",
+        "diagram_desc": "Migration from monolith to microservices using <strong>CQRS</strong> and <strong>Event Sourcing</strong>."
+    },
+    "footer": {
+        "copyright": "Iman Ghatami. Architecting the Future."
+    },
+    "slides": {
+        "slide1": {
+            "title": "The Professional Identity",
+            "name": "Iman Ghatami",
+            "role": "Senior Software Architect & Technical Lead",
+            "quote": "17+ Years of Distributed Systems, Security, and Engineering Excellence",
+            "footer": "Chalky Web B.V."
+        },
+        "slide2": {
+            "title": "The 17-Year Evolution",
+            "timeline_title": "Career Timeline",
+            "item1": {
+                "year": "2007-2008",
+                "title": "Foundations in Infrastructure",
+                "desc": "Webair - Server provisioning & Networking"
+            },
+            "item2": {
+                "year": "2009-2016",
+                "title": "Scaling Web Platforms",
+                "desc": "Daisycon, Focum - High traffic platforms"
+            },
+            "item3": {
+                "year": "2016-2020",
+                "title": "The Transition to Architecture",
+                "desc": "Enreach - Monolith to Microservices"
+            },
+            "item4": {
+                "year": "2020-Present",
+                "title": "High-Impact Freelancing",
+                "desc": "Rabobank, Ahold, APM Terminals - Strategic Architecture"
+            }
+        },
+        "slide3": {
+            "title": "Tech Stack Matrix",
+            "languages": {
+                "title": "Languages",
+                "kotlin": "7+ yrs",
+                "java": "10+ yrs",
+                "php": "10+ yrs"
+            },
+            "frameworks": {
+                "title": "Frameworks",
+                "items": [
+                    "Spring Boot",
+                    "Axon (CQRS/ES)",
+                    "Ktor",
+                    "Kubernetes"
+                ]
+            },
+            "security": {
+                "title": "Security",
+                "items": [
+                    "IAM / OAuth 2.0 / SAML 2.0",
+                    "Ethical Hacking Tools",
+                    "Security by Design"
+                ]
+            }
+        },
+        "slide4": {
+            "title": "Case Study: APM Terminals",
+            "main_title": "Global Scale at APM Terminals",
+            "stats": {
+                "locations": {
+                    "label": "Locations",
+                    "value": "10+"
+                },
+                "stack": {
+                    "label": "Stack",
+                    "value": "Kotlin & Open Source"
+                },
+                "impact": {
+                    "label": "Impact",
+                    "value": "Fuel Reduction"
+                }
+            },
+            "details": {
+                "challenge": {
+                    "label": "Challenge:",
+                    "text": "Optimizing routes for terminal trucks globally."
+                },
+                "solution": {
+                    "label": "Solution:",
+                    "text": "Built a navigation system leveraging open-source components for rapid delivery."
+                },
+                "result": {
+                    "label": "Result:",
+                    "text": "Streamlined delivery and improved container handling efficiency."
+                }
+            }
+        },
+        "controls": {
+            "slide_prefix": "Slide"
+        }
+    },
+    "pop": {
+        "title": "Personal Development Plan",
+        "vision_title": "Vision on the Profession",
+        "vision": "As a Senior Software Engineer with 17+ years of experience, I see the industry shifting from standard microservices toward Intelligent Distributed Systems. My goal is to bridge the gap between robust backend architecture (Kotlin/Java) and emerging technologies like AI/ML and Decentralized Finance (DeFi).",
+        "competencies_title": "Current Competencies",
+        "competencies": [
+            {
+                "label": "Strengths",
+                "text": "Expert-level mastery of Kotlin (7+ years), Java (10+ years), and Microservices."
+            },
+            {
+                "label": "Specialization",
+                "text": "Strong background in Security (Ethical Hacking) and IAM (OAuth 2.0, SAML 2.0)."
+            },
+            {
+                "label": "Leadership",
+                "text": "Proven track record in leading international teams and modernizing legacy platforms."
+            }
+        ],
+        "goals_title": "Development Goals",
+        "table": {
+            "goal": "Goal",
+            "description": "Description",
+            "timeline": "Timeline",
+            "items": [
+                {
+                    "goal": "AI/ML Integration",
+                    "description": "Move beyond \"Basic Exposure\" to implementing AI-driven operational optimization in backend services.",
+                    "timeline": "6–12 Months"
+                },
+                {
+                    "goal": "Blockchain & Smart Contracts",
+                    "description": "Leverage existing security expertise to develop secure, decentralized backend solutions.",
+                    "timeline": "12–18 Months"
+                },
+                {
+                    "goal": "Architectural Leadership",
+                    "description": "Transition from Senior Technical Lead to a more strategic Chief Architect or CTO-level advisory role.",
+                    "timeline": "Ongoing"
+                }
+            ]
+        }
+    },
+    "contact": {
+        "details": {
+            "location": "Almere, Netherlands",
+            "phone": "+31 684816556",
+            "email": "info@chalkyweb.com",
+            "linkedin": "https://www.linkedin.com/in/iman-g-0834111b/",
+            "company": "Chalky Web B.V.",
+            "whatsapp": "WhatsApp",
+            "whatsapp_url": "https://wa.me/31684816556",
+            "website_url": "https://ghatami.nl",
+            "address_label": "Location",
+            "phone_label": "Phone / WhatsApp"
+        },
+        "form": {
+            "name_label": "Name",
+            "name_placeholder": "Your name",
+            "email_label": "Email",
+            "email_placeholder": "your@email.com",
+            "subject_label": "Subject",
+            "subject_placeholder": "What is this about?",
+            "message_label": "Message",
+            "message_placeholder": "How can I help you?",
+            "submit_button": "Send Message",
+            "success_message": "Message sent successfully!",
+            "error_message": "Failed to send message. Please try again.",
+            "sending": "Sending..."
+        }
+    },
+    "terminal": {
+        "title": "Command Center",
+        "description": "Interactive terminal for developers. Type 'help' to start.",
+        "placeholder": "Type help...",
+        "welcome": "Welcome to Iman's Portfolio v2025.1.0\nType 'help' to see available commands.",
+        "commands": {
+            "help": "Available commands:\n  help    - Show this message\n  about   - Who am I?\n  skills  - List technical skills\n  contact - Get contact info\n  clear   - Clear terminal",
+            "about": "Iman Ghatami | Senior Software Architect\n17+ years experience in Distributed Systems, Security, and Cloud Architecture.\nFocus: Kotlin, DDD, Event Sourcing, and Security by Design.",
+            "skills": "Primary Skills:\n- Kotlin (7+ yrs)\n- Java (10+ yrs)\n- Distributed Systems (Kafka, RabbitMQ)\n- Security (OAuth2, SAML, Ethical Hacking)\n- Cloud (Kubernetes, AWS, Azure)",
+            "contact": "Email: imanjoen@gmail.com\nLinkedIn: https://www.linkedin.com/in/iman-g-0834111b/\nLocation: Almere, Netherlands",
+            "unknown": "Command not found. Type 'help' for available commands."
+        }
+    },
+    "skills_matrix": {
+        "title": "Technical Arsenal",
+        "subtitle": "A comprehensive overview of my technical capabilities.",
+        "categories": {
+            "languages": "Languages",
+            "frameworks": "Frameworks",
+            "infrastructure": "Infrastructure",
+            "security": "Security & Tools"
+        }
+    },
+    "metadata": {
+        "title": "Iman Ghatami | Senior Software Architect & Security Specialist",
+        "description": "Senior Software Architect with 17+ years of experience in Distributed Systems, Kotlin, and Security by Design. Specializing in Event Sourcing and DDD.",
+        "keywords": "Software Architect, Kotlin, Java, Distributed Systems, Security, Ethical Hacking, Microservices, Event Sourcing, DDD, CQRS, Kafka, Kubernetes, Azure, AWS"
+    }
+}
