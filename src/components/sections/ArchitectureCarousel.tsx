@@ -65,21 +65,21 @@ export const ArchitectureCarousel = () => {
                 {/* Controls */}
                 <button
                     onClick={(e) => { e.stopPropagation(); prevImage(); }}
-                    className="absolute left-3 md:left-4 top-1/2 -translate-y-1/2 p-3 bg-black/60 hover:bg-kotlinIndigo text-white rounded-full backdrop-blur-sm transition-all opacity-0 group-hover:opacity-100 shadow-lg hover:scale-110"
+                    className="absolute left-3 md:left-4 top-1/2 -translate-y-1/2 p-3 bg-black/60 hover:bg-kotlinIndigo text-white rounded-full backdrop-blur-sm transition-all shadow-lg hover:scale-110 md:opacity-0 md:group-hover:opacity-100"
                     aria-label="Previous image"
                 >
                     <ChevronLeft className="w-5 h-5" />
                 </button>
                 <button
                     onClick={(e) => { e.stopPropagation(); nextImage(); }}
-                    className="absolute right-3 md:right-4 top-1/2 -translate-y-1/2 p-3 bg-black/60 hover:bg-kotlinIndigo text-white rounded-full backdrop-blur-sm transition-all opacity-0 group-hover:opacity-100 shadow-lg hover:scale-110"
+                    className="absolute right-3 md:right-4 top-1/2 -translate-y-1/2 p-3 bg-black/60 hover:bg-kotlinIndigo text-white rounded-full backdrop-blur-sm transition-all shadow-lg hover:scale-110 md:opacity-0 md:group-hover:opacity-100"
                     aria-label="Next image"
                 >
                     <ChevronRight className="w-5 h-5" />
                 </button>
 
                 {/* Indicators */}
-                <div className="absolute bottom-4 md:bottom-6 left-1/2 -translate-x-1/2 flex gap-2 opacity-0 group-hover:opacity-100 transition-opacity">
+                <div className="absolute bottom-4 md:bottom-6 left-1/2 -translate-x-1/2 flex gap-2 transition-opacity md:opacity-0 md:group-hover:opacity-100">
                     {images.map((_, idx) => (
                         <button
                             key={idx}

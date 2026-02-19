@@ -53,10 +53,10 @@ export const Header = ({ lang, dictionary }: HeaderProps) => {
                         className="object-contain"
                         priority
                     />
-                    <div className="flex items-center gap-3 whitespace-nowrap">
-                        <span className="text-white group-hover:text-kotlinIndigo transition-colors leading-tight">Iman <span className="font-bold">GHATAMI</span></span>
-                        <span className="text-ideBorder">|</span>
-                        <span className="text-xs text-slateGray font-bold tracking-wider leading-tight">SOFTWARE ARCHITECT</span>
+                    <div className="flex items-center gap-3">
+                        <span className="text-white group-hover:text-kotlinIndigo transition-colors leading-tight whitespace-nowrap">Iman <span className="font-bold">GHATAMI</span></span>
+                        <span className="hidden sm:inline text-ideBorder">|</span>
+                        <span className="hidden sm:inline text-xs text-slateGray font-bold tracking-wider leading-tight">SOFTWARE ARCHITECT</span>
                     </div>
                 </Link>
 
@@ -112,16 +112,16 @@ export const Header = ({ lang, dictionary }: HeaderProps) => {
             {/* Mobile Navigation Overlay */}
             {isMenuOpen && (
                 <div
-                    className="fixed inset-0 w-screen h-screen z-[100] flex flex-col pt-24 px-8 md:hidden overflow-y-auto overscroll-none"
+                    className="fixed inset-0 w-screen h-screen z-[100] flex flex-col pt-28 px-8 md:hidden overflow-y-auto overscroll-none"
                     style={{ backgroundColor: '#0F172A' }}
                 >
-                    <nav className="flex flex-col gap-6">
+                    <nav className="flex flex-col gap-3">
                         {navLinks.map((link) => (
                             <Link
                                 key={link.href}
                                 href={link.href}
                                 onClick={closeMenu}
-                                className={`text-4xl font-bold font-montserrat tracking-tight transition-all duration-300 ${isActive(link.path) || (link.path === '' && isActive('/'))
+                                className={`text-lg sm:text-xl font-bold font-montserrat tracking-tight transition-all duration-300 ${isActive(link.path) || (link.path === '' && isActive('/'))
                                     ? 'text-white translate-x-4'
                                     : 'text-slate-400 hover:text-kotlinIndigo hover:translate-x-4'
                                     }`}
@@ -131,13 +131,13 @@ export const Header = ({ lang, dictionary }: HeaderProps) => {
                         ))}
                     </nav>
 
-                    <div className="mt-auto mb-12 border-t border-ideBorder pt-8">
-                        <p className="text-sm font-mono text-slate-500 mb-4 uppercase tracking-wider">Select Language</p>
-                        <div className="flex items-center gap-4">
+                    <div className="mt-4 mb-6 border-t border-ideBorder pt-4">
+                        <p className="text-xs font-mono text-slate-500 mb-3 uppercase tracking-wider">Select Language</p>
+                        <div className="flex items-center gap-3">
                             <Link
                                 href={switchLanguage('en')}
                                 onClick={closeMenu}
-                                className={`px-6 py-3 rounded-lg font-bold border-2 transition-all ${lang === 'en'
+                                className={`px-3 py-1.5 rounded text-sm font-bold border transition-all ${lang === 'en'
                                     ? 'bg-kotlinIndigo border-kotlinIndigo text-white'
                                     : 'border-ideBorder text-slateGray hover:border-kotlinIndigo hover:text-white'
                                     }`}
@@ -147,7 +147,7 @@ export const Header = ({ lang, dictionary }: HeaderProps) => {
                             <Link
                                 href={switchLanguage('nl')}
                                 onClick={closeMenu}
-                                className={`px-6 py-3 rounded-lg font-bold border-2 transition-all ${lang === 'nl'
+                                className={`px-3 py-1.5 rounded text-sm font-bold border transition-all ${lang === 'nl'
                                     ? 'bg-kotlinIndigo border-kotlinIndigo text-white'
                                     : 'border-ideBorder text-slateGray hover:border-kotlinIndigo hover:text-white'
                                     }`}
